@@ -117,6 +117,8 @@ public class WordCount {
   }
   
   
+  //test change
+  
   static class changeKey extends DoFn<KV<String, Long>, KV<String, Long>> {
 	   
 	    @ProcessElement
